@@ -1,1 +1,1 @@
-# Open_DPD
+# DPD-lstm-varieties
