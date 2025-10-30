@@ -37,16 +37,22 @@ All models are trained on the same DPD dataset under identical settings to ensur
 
 ---
 
-## 📁 Directory Structure 
+---
 
-├── data/ # Dataset or data loader scripts
-├── models/ # LSTM variants definitions
-├── utils/ # Helper functions and metrics
-├── results/ # Logs, plots, and evaluation results
-├── train_dpd.py # Main training script
-├── evaluate.py # Model evaluation script
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+## 📁 Directory Structure / 项目结构
+
+```bash
+DPD-LSTM-varieties/
+
+├── data/                # Dataset or data loader scripts
+├── models/              # LSTM variants definitions
+├── utils/               # Helper functions and metrics
+├── results/             # Logs, plots, and evaluation results
+├── train_dpd.py         # Main training script
+├── evaluate.py          # Model evaluation script
+├── requirements.txt     # Dependencies
+└── README.md            # Project documentation
+
 
 
 
