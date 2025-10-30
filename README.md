@@ -38,8 +38,7 @@ All models are trained on the same DPD dataset under identical settings to ensur
 ---
 
 ## 📁 Directory Structure 
-DPD-LSTM-varieties/
-│
+
 ├── data/ # Dataset or data loader scripts
 ├── models/ # LSTM variants definitions
 ├── utils/ # Helper functions and metrics
