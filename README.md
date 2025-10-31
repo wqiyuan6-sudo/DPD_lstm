@@ -24,9 +24,11 @@ We design and compare several LSTM variants:
 | Variant | Description |
 |----------|--------------|
 | **Full LSTM** | Original LSTM with all gates |
-| **LSTM−F** | Removed Forget Gate |
-| **LSTM−I** | Removed Input Gate |
-| **LSTM−O** | Removed Output Gate |
+| **LSTM−NIG** | No Input Gate |
+| **LSTM−NFG** | No Forget Gate |
+| **LSTM−CIFG** | Coupled Input Forget Gate |
+| **LSTM−NIAF** | No Input Activation Function |
+| **LSTM−CIFG&NIAF** | Coupled Input Forget Gate and No Input Activation Function |
 | **Simplified Cell Update** | Modified cell state update function |
 
 All models are trained on the same DPD dataset under identical settings to ensure fair comparison.
@@ -39,7 +41,7 @@ All models are trained on the same DPD dataset under identical settings to ensur
 
 ---
 
-## 📁 Directory Structure / 项目结构
+## 📁 Directory Structure 
 
 ```bash
 DPD-LSTM-varieties/
